@@ -5,17 +5,17 @@ on:
     branches: ["main"]
     tags: ["v*.*.*"]
     paths:
-      - "phase3-advanced/**"
+      - "docker-mastery-project/**"
   pull_request:
     branches: ["main"]
     paths:
-      - "phase3-advanced/**"
+      - "docker-mastery-project/**"
 
   workflow_dispatch:
 
 defaults:
   run:
-    working-directory: phase3-advanced
+    working-directory: docker-mastery-project
 
 env:
   IMAGE_NAME: docker-mastery-demo
