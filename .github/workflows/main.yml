@@ -71,7 +71,6 @@ jobs:
       - name: Build image (load locally, cached, not pushed yet)
         uses: docker/build-push-action@v6
         with:
-          context: phase3-advanced
           load: true
           push: false
           tags: |
