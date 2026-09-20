@@ -11,6 +11,8 @@ on:
     paths:
       - "phase3-advanced/**"
 
+  workflow_dispatch:
+
 defaults:
   run:
     working-directory: phase3-advanced
